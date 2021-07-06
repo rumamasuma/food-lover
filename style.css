@@ -1,0 +1,31 @@
+ body{
+     margin: 0;
+ }
+ .orange{
+    color: chocolate;
+    font: 700;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+   padding-right: 20%;
+   margin-right: 10px;
+}
+.partition {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+.section{
+    width: 50%;
+    padding-left: 2%;
+}
+.link-button{
+    background-image: linear-gradient(rgb(218, 91, 91),rgb(220, 100, 14));
+    border-radius: 20px;
+    font-weight: 700;
+    color: indigo;
+    padding:10px 20px;
+    text-decoration: none;
+    text-align:center;
+}
