@@ -2,7 +2,7 @@
      margin: 0;
  }
  .orange{
-    color: chocolate;
+    color: rgb(187, 86, 14);
     font: 700;
     font-size: 30px;
 }
@@ -28,4 +28,48 @@ p{
     padding:10px 20px;
     text-decoration: none;
     text-align:center;
+}
+.bg-img{
+    background-image:url(image/ruma.png);
+    width : 100%;
+    height: 50%;
+    padding:20px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.myrecipe {
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px 20px ;
+}
+.shadow{
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 3px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius:10px;
+    background-color: rgb(223, 205, 215);
+}
+img {
+    display: block;
+   margin: 5%;
+   padding :5%;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    margin:20px;
+    padding: 20px;
+}
+.footer h3{
+        text-align: center;
+        background-color: coral;
+        display:block;
 }
